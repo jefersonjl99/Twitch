@@ -1,0 +1,231 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+    position: relative;
+}
+
+
+*{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+  .borde{
+    width: 1333px;
+    height: 500px;
+}
+
+
+.cajaIzquierda{
+   
+    font-family:  Inter;
+    position: absolute;
+    z-index: 2;
+    width: 240px;
+    background:#efeff1;
+    margin: 50px 0px 0px 0px;
+}
+
+.cajatitulo{
+    color: #0e0e10;
+    width: 220px;
+    height: 19px;
+    margin: 10px;
+    padding: 5px 0px 0px 0px;
+}
+
+
+.canales{
+    width: 240px;
+    height: 420px;
+    
+}
+
+.canal{
+    width: 220px;
+    height: 32px;
+    padding: 5px 10px 5px 10px ;
+}
+
+.aCanales{
+    color:  #1f1f23;
+}
+.aCanales :hover{
+    background: #e5e5e5;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+    
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.informacion{
+    width: 190px;
+    height: 31px;
+    float: left;
+}
+
+.datos{
+    width: 122.81px;
+    height: 31px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+
+.nombre{
+    font-size: 14px;
+    width: 122.81px;
+    height: 16px;
+    color: #1f1f23;
+}
+
+.contenido{
+    font-size: 13px;
+    width: 117.81px;
+    height: 15px;
+    color: #53535f;
+}
+
+.vistas{
+    width: 49.94px;
+    height: 31px;
+    margin: 0px 0px 0px 5px;
+    float: right;
+}
+
+.infoVistas{
+    width: 49.94px;
+    height: 19px;
+}
+
+.icon-red-dot{
+    width: 8px;
+    height: 8px;
+    background-image: url("red\ dot.png");
+    background-size: cover;
+    float:left;
+    margin: 5px 0px 0px 0px;
+}
+
+.Npersonas{
+    font-size: 13px;
+    width: 36.42px;
+    height: 19px;
+    margin: 0px 0px 0px 5px;
+    float:left;
+
+}
+
+
+.contenidoTwitch{
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    background: #f7f7f8;
+    width: 1126px;
+    height: 2672.73px;
+    margin: 50px 0px 0px 240px;
+    
+}
+
+.divCarrusel{
+    width: 1126px;
+    height: 350px;
+}
+
+.carrusel{
+    width: 1066px;
+    height: 300px;
+    padding: 20px 30px 30px 30px ;
+}
+
+.botonCarrusel{
+    width: 36px;
+    height: 36px;
+    border-radius: 15%;
+    border: none;
+    margin: 132px 0px 132px 0px;
+    background: #f7f7f8;
+    float:left;
+}
+
+.flechaCarrusel{
+    width: 24px;
+    height: 24px;
+    background-image: url("flechaCarrusel2.png");
+    background-size: cover;
+    margin: 6px 6px 6px 6px;    
+}
+
+.botonCarrusel:hover{
+    background: #e5e5e5;;
+}
+
+.botonCarrusel2{
+    width: 36px;
+    height: 36px;
+    border-radius: 15%;
+    border: none;
+    margin: 132px 0px 132px 0px;
+    background: #f7f7f8;
+    float:right;
+}
+
+.flechaCarrusel2{
+    width: 24px;
+    height: 24px;
+    background-image: url("flechaCarrusel.png");
+    background-size: cover;
+    margin: 6px 6px 6px 6px;    
+}
+
+.botonCarrusel2:hover{
+    background: #e5e5e5;;
+}
+
+.directoRecomendado{
+    width: 750px;
+    height: 300px;
+    float:left;
+    margin: 0px 122px 0px 122px;  
+    position: relative;  
+}
+
+.directoRecomendado::after{
+    position: absolute;  
+    top: 0px;
+    left: 0px;
+    content: ' ';
+    background: radial-gradient(white, rgb(54, 52, 52));
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    z-index: -1;
+}
+
+.directo{
+    width: 530px;
+    height: 300px;
+    float:left;
+    background: black;
+
+}
+
+.infoCanal{
+    width: 220px;
+    height: 300px;
+    float:right;
+    background: #ffffff;
+}

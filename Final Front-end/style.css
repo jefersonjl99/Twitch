@@ -1,0 +1,94 @@
+.borde{
+    width: 1333px;
+    height: 500px;
+}
+
+.superior{
+    width: 1333px;
+    height: 50px;
+}
+.cajaIzquierda{
+    width: 240px;
+    height: 684px;
+    background:lightgray;
+}
+
+.cajatitulo{
+    width: 240px;
+    height: 42px;
+}
+
+.texto{
+    font-family: Helvetica;
+    width: 220px;
+    height:24px;
+    padding: 8px;
+}
+.canales{
+    width: 240px;
+    height: 684px;
+    
+}
+
+.canal{
+    width: 240px;
+    height: 42px;
+}
+
+.infoCanal{
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#logo1{
+    background-image: url("canalx.png");
+    background-size: cover;
+}
+#logo2{
+    background-image: url("canaly.png");
+    background-size: cover;
+}
+.informacion{
+    width: 190px;
+    height: 30px;
+    float: left;
+}
+
+.datos{
+    width: 129.13px;
+    height: 30px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+
+.nombre{
+    width: 131.03px;
+    height: 16px;
+}
+
+.contenido{
+    width: 131.03px;
+    height: 15px;
+}
+
+.vistas{
+    width: 45.77px;
+    height: 30px;
+    margin: 0px 0px 0px 5px;
+    float: right;
+}
+
+.t{
+    font-size: small;
+    font-family: Helvetica;
+    margin: 0;
+}

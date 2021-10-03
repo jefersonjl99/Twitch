@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(9, 1fr); 
+    grid-template-rows: repeat(3, auto);   
+    background-color: rgb(241, 238, 245);
+}
+
+
+.contenedor .contenido{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    width: 100%;    
+    grid-row: 2 / 15;
+    margin-top: 7%;
+    margin-left: 12%;
+}
+
+
+
+.contenedor .chat{
+    font-family: Inter;
+    font-weight: bold;
+    padding: 0%;
+    background: white; 
+    position: fixed;
+    right: 0%;
+    top: 10%;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+}
+
+
+.lateralFijo{
+    position: fixed;
+    float: left; 
+    margin-top: 2%;  
+    height: 100%;
+}
+
+
+/*ORGANIZAR CHAT*/
+.titulo{
+    border-radius: 2%;
+    background: white;
+    font-size: 70%;
+    font-style: robert;
+}
+
+.titulo ul li{
+    display: inline-block;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    margin-left: 2%;
+}
+
+.titulo a{
+    border-radius: 10%;
+}
+
+.titulo a:hover{
+    padding-top: 70%;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(228, 226, 226);
+}
+
+.contenedor .chat .cajaTexto{
+    background: white;
+}
+
+.mensaje .cajaDeTexto{
+    list-style: none;
+    display: inline-block;
+    margin-top: 127%; /* PARA QUE QUE EN LA ESQUINA INFERIOR IZQ*/ 
+    padding-bottom: 0%;
+}
+
+.mensaje input{
+    width: 170%;
+    border-radius: 5px;
+    background-color: rgb(214, 210, 210);
+    height: 40px;
+    font-size: 15px;
+    margin: 3%;
+}
+.mensaje input:focus{
+    background: white;
+    border: solid 2px blueviolet;
+}
+
+/*BARRA ADICIONAL CHAT*/
+.menuMensaje ul{
+    display: grid;
+    grid-template-columns: repeat(3, 10fr); 
+    list-style: none;
+    padding: 3%;
+}
+
+.menuMensaje .tuerca{
+    grid-template-columns: 2fr;
+    margin-left: 100%;
+}
+
+.menuMensaje .enviar{
+    background: #772ce8;
+    margin-left: 30%;
+    color: white;
+    border-radius: 7px;
+    font-size: 90%;
+    width: 70%;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.menuMensaje .enviar a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    
+}
+.menuMensaje .enviar:hover{
+    background: #5c16c5;
+}
+
+.menuMensaje li:hover{
+    background-color: rgb(190, 187, 187);
+}
+
+.etiqueta{
+    position: absolute;
+    display: none;
+}
+  .menuMensaje li:hover > .etiqueta{
+    display: block;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+    position: absolute;
+    bottom: 120px;
+    z-index: 1;
+  }
+
+
+/*      --------------------------------             */
+.Descripcion{
+    grid-column: 2/7; /* comienzo y fin de la columna*/
+    width: 93%;
+    grid-row-start: 60;
+    background-color: rgb(241, 238, 245);
+    padding-left: 5%;
+    margin-left: 12%;
+}
+
+.perfil a{
+    text-decoration: none;
+    margin-bottom: 30%;
+}
+
+.perfil ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.perfil .botones li{
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px;
+}
+
+#nombre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    padding-left: 2%;
+    font-weight: 500;
+}
+
+.fotoPerfil img{
+    width: 100%;
+    border-radius: 55%;
+    border: solid 2px gray;
+}
+
+.fotoPerfil :hover{
+    border: solid 4px gray;
+}
+.fotoPerfil{
+    float: left;
+}
+.botones{
+    float: right;
+}
+.nombre{
+    margin-right: 280px;
+}
+
+#nombre{
+    color: black; 
+}
+
+#nombre:hover{
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+.seguir{
+    font-family: Inter;
+    font-size: 80%;
+    background-color: blueviolet;
+}
+.seguir a{
+    color: white;
+}
+
+.subs{
+    font-family: Inter;
+    font-size: 80%;
+    font-weight: bold;
+    background:rgb(202, 200, 200);
+}
+.subs a{
+   color: black;
+}
+
+
+/* DATOS STREAMING*/
+.datosStreaming li{
+    display: inline-block;
+}
+.datosStreaming{
+    float: right;
+    padding: 2%;
+}
+.usuarios{
+    color: red;
+}
+
+/*BOTONES EXTRA*/
+.bot-compartir li{
+    display: inline-block;
+}
+.bot-compartir{
+    float: right;
+}
+
+.bot-compartir li:hover{
+    background: rgb(202, 200, 200);
+    border-radius: 5px;
+}
+
+/*CONTENERDOR ACERCA DE */
+.contenedor .Descripcion .acercaDe{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 15%;
+    padding-top: 5%;
+    padding-right: 5%;
+    height: 10%;
+    background: white;
+    border-radius: 10px;
+   
+}
+.acercaDe > h2{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.acercaDe p{
+    margin-top: 2%;
+}
+.redes{
+    float: right;
+}
+.redes a{
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+}
+
+.redes #flecha{
+    display: none; /* ARREGLAR */
+}
+
+.redes a:hover{
+    color: black;
+}
+
+.redes .nombreAcerca li{
+    display: inline-block;
+}
+
+.contenido2 > div{
+    padding-left: 3%;
+    display: inline-block;
+    padding-top: 4%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 80%;
+}
+
+/*///////////////////////////////////////////////*/
+.boton{
+    display: inline-block;
+    padding-left: 30%;
+}
+
+.emojis{
+    float: left;
+}
+
+.boton:active .emojis{
+    display: block;
+    position: absolute;
+    right: 4%;
+    bottom: 70%;
+    z-index: 1;
+    width: 100%;
+}
+
+.buscar-emoticon{
+    background: white;
+    padding: 2%;
+    box-shadow: 0px 0px 2px;
+}
+
+.buscar-emoticon input{
+    padding: 3%;
+    background: rgb(235, 229, 229) url("https://img.icons8.com/material-outlined/20/000000/search--v1.png") no-repeat;
+    border-radius: 5px;
+    height: 5px;
+    width: 73%;
+}
+
+.buscar-emoticon input:focus{
+    background-color: white;
+    border: solid 2px blueviolet;
+}
+
+.buscar-emoticon #cerrar{
+    display: inline-block;
+    float:right;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+#cerrar:hover{
+    background-color: rgb(235, 229, 229);
+}
+
+.cabeza2{
+    background: white;
+    padding: 2%;
+    width: 77%;}
+
+.cabeza2 #img2{
+    border-radius: 5px;
+    float: right;
+    margin-right: 5%;
+ }
+
+.cabeza2 #img2:hover{
+    background: rgb(207, 201, 201);
+}
+
+.emojis{
+    width: 70%;
+    height: 10%;
+    background: rgb(223, 214, 214);
+    box-shadow: 0px 0px 4px;
+    border-radius: 6px;
+    display: none;
+}
+
+.lista-emojis{
+    box-shadow: 0px 1px 0px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    background: white;
+    padding: 2px;
+}
+
+.emoji-l{
+    position: relative;
+    width: 37px;
+    height: 37px;
+    cursor: pointer; 
+    margin: 5%;
+    border-radius: 5px;
+}
+
+.emoji-l:hover{
+    background: gray;
+}
+
+.perfil-lateral{
+    position:absolute;
+    margin-left: 81%;
+    width: 20%;
+    height: 385%;
+    background: rgb(212, 216, 221);
+}
+
+.perfil-lat{
+    float: right;
+    margin-top: 2%;
+    padding-right: 37%;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.perfil-lat:hover{
+    background:rgb(187, 182, 182);
+    border-left: 2px solid blueviolet;
+}
+
