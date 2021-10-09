@@ -22,7 +22,6 @@
 }
 
 
-
 .contenedor .chat{
     font-family: Inter;
     font-weight: bold;
@@ -49,15 +48,19 @@
 .titulo{
     border-radius: 2%;
     background: white;
-    font-size: 70%;
-    font-style: robert;
+  
 }
+
 
 .titulo ul li{
     display: inline-block;
-    padding-left: 10%;
-    padding-bottom: 5%;
-    margin-left: 2%;
+    padding-left: 0%;
+    margin-top: 2%;
+    padding-bottom: 0%;
+    margin-left: 3%;
+    font-size: 70%;
+    font-style: robert;
+    
 }
 
 .titulo a{
@@ -147,18 +150,20 @@
     padding: 4px;
     position: absolute;
     bottom: 120px;
-    z-index: 1;
+    z-index: 10;
   }
 
 
 /*      --------------------------------             */
 .Descripcion{
     grid-column: 2/7; /* comienzo y fin de la columna*/
+    margin-top: 50%;
     width: 93%;
     grid-row-start: 60;
     background-color: rgb(241, 238, 245);
     padding-left: 5%;
     margin-left: 12%;
+    height: 100%;
 }
 
 .perfil a{
@@ -315,7 +320,7 @@
     float: left;
 }
 
-.boton:active .emojis{
+.boton:hover .emojis{
     display: block;
     position: absolute;
     right: 4%;
@@ -344,10 +349,12 @@
 }
 
 .buscar-emoticon #cerrar{
-    display: inline-block;
     float:right;
+}
+.buscar-emoticon #cerrar{
+    display: inline-block;
     border-radius: 5px;
-    padding: 3%;
+    padding: 3%; 
 }
 
 #cerrar:hover{
@@ -357,7 +364,8 @@
 .cabeza2{
     background: white;
     padding: 2%;
-    width: 77%;}
+    width: 77%;
+}
 
 .cabeza2 #img2{
     border-radius: 5px;
@@ -367,6 +375,10 @@
 
 .cabeza2 #img2:hover{
     background: rgb(207, 201, 201);
+}
+
+#perfil2{
+    border-radius: 60px;
 }
 
 .emojis{

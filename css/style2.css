@@ -1,0 +1,698 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+    position: relative
+}
+
+.superDiv{
+    height: 100%; 
+}
+
+*{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.cajaIzquierda{
+    font-family:  Inter;
+    position: absolute;
+    z-index: 3;
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background:#efeff1;
+    margin: 3rem 0px 0px 0px;
+}
+
+.cajatitulo{
+    
+    color: #0e0e10;
+    width: 200px;
+    height: 30px;
+    margin: 0px 10px  0px;
+    padding: 15px 0px 0px 0px;
+}
+
+
+.canales{
+    width: 240px;
+    height: 420px;
+    
+}
+
+.canal{
+    width: 220px;
+    height: 32px;
+    padding: 5px 10px 5px 10px ;
+}
+
+.aCanales{
+    color:  #1f1f23;
+}
+.aCanales :hover{
+    background: #e5e5e5;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.informacion{
+    width: 190px;
+    height: 31px;
+    float: left;
+}
+
+.datos{
+    width: 122.81px;
+    height: 31px;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+
+
+.nombre{
+    font-size: 14px;
+    width: 122.81px;
+    height: 16px;
+    color: #1f1f23;
+}
+
+.contenido{
+    font-size: 13px;
+    width: 117.81px;
+    height: 15px;
+    color: #53535f;
+}
+
+.vistas{
+    width: 49.94px;
+    height: 31px;
+    margin: 0px 0px 0px 5px;
+    float: right;
+}
+
+.infoVistas{
+    width: 49.94px;
+    height: 19px;
+}
+
+.icon-red-dot{
+    width: 8px;
+    height: 8px;
+    background-image: url("red\ dot.png");
+    background-size: cover;
+    float:left;
+    margin: 5px 0px 0px 0px;
+}
+
+.Npersonas{
+    font-size: 13px;
+    width: 36.42px;
+    height: 19px;
+    margin: 0px 0px 0px 5px;
+    float:left;
+
+}
+
+
+.contenidoTwitch{
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    background: #f7f7f8;
+    font-family: Inter;
+    width: 1126px;
+    height: 100%;
+    overflow: auto;
+    margin: 50px 0px 0px 240px;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+	width: 6px;
+    
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+    height: 30px;
+    border-radius: 15px;
+	background-color: #3b3b44;
+}
+
+.divCarrusel{
+    width: 1126px;
+    height: 350px;
+    
+}
+
+.carrusel{
+    width: 1066px;
+    height: 300px;
+    padding: 20px 30px 30px 30px ;
+}
+
+.botonCarrusel{
+    width: 36px;
+    height: 36px;
+    border-radius: 15%;
+    border: none;
+    margin: 132px 0px 132px 0px;
+    background: #f7f7f8;
+    float:left;
+}
+
+.flechaCarrusel{
+    width: 24px;
+    height: 24px;
+    background-image: url("flechaCarrusel2.png");
+    background-size: cover;
+    margin: 6px 6px 6px 6px;    
+}
+
+.botonCarrusel:hover{
+    background: #e5e5e5;
+}
+
+.botonCarrusel2{
+    width: 36px;
+    height: 36px;
+    border-radius: 15%;
+    border: none;
+    margin: 132px 0px 132px 0px;
+    background: #f7f7f8;
+    float:right;
+}
+
+.flechaCarrusel2{
+    width: 24px;
+    height: 24px;
+    background-image: url("flechaCarrusel.png");
+    background-size: cover;
+    margin: 6px 6px 6px 6px;    
+}
+
+.botonCarrusel2:hover{
+    background: #e5e5e5;
+}
+
+.directoRecomendado{
+    width: 750px;
+    height: 300px;
+    float:left;
+    margin: 0px 122px 0px 122px;  
+    position: relative;  
+}
+
+.directoRecomendado::after{
+    position: absolute;  
+    top: 0px;
+    left: 0px;
+    content: ' ';
+    background: radial-gradient(white, rgb(54, 52, 52));
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.directo{
+    width: 530px;
+    height: 300px;
+    float:left;
+    background: black;
+
+}
+
+.infoCanal{
+    font-family:  Inter;
+    width: 220px;
+    height: 300px;
+    float:right;
+    background: #ffffff;
+}
+
+.infoC{
+    width: 200px;
+    height: 280px;
+    padding: 10px 10px 10px 10px; 
+}
+
+.logoyJuego{
+    width: 200px;
+    height: 58.500px;
+    margin: 0px 0px 10px 0px; 
+}
+
+.datosContenido{
+    width: 200px;
+    height: 25px;
+    margin: 0px 0px 5px 0px;
+}
+
+.textoCanal{
+    width: 200px;
+    height: 150px;
+}
+
+.infoCanal2{
+    width: 140px;
+    height: 58.500px;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+.hipervinculoCanal{
+    width: 140px;
+    height: 19.5px;
+    font-size: 13px;
+    outline: none;
+    text-decoration: none;
+    color: #772ce8;
+    float: left;
+}
+
+.hipervinculoCanal :hover{
+    
+    color:#9461ff;
+    border-bottom: 1px solid;
+}
+
+.hipervinculoJuego{
+    width: 140px;
+    height: 19.5px;
+    font-size: 13px;
+    outline: none;
+    text-decoration: none;
+    color:#9147ff;
+    float: left;
+}
+
+.hipervinculoJuego :hover{
+    border-bottom: 1px solid;
+}
+
+.pVistas{
+    width: 140px;
+    height: 19.5px;
+    font-size: 13px;
+    color: #0e0e10;
+    float: left;
+}
+
+.datosC{
+    width: 66.02px;
+    height: 25px;
+    float: left;
+}
+
+.datosTexto{
+    width: 66.02px;
+    height: 20px;
+    margin: 0px 0px 5px 0px;
+    float: left;
+}
+
+.datosa{
+    background: #eaeaeb;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    float: left;
+}
+
+.datosa :hover{
+    background: #e5e5e5;
+}
+
+.textoDatosa{
+    color: #53535f;
+    border: 2px solid #efeff1;
+    font-size: 12px;
+    border-radius: 48px;
+    padding: 0px 8px 0px 8px;
+    float: left;
+}
+
+.textoCanal{
+    color: #0e0e10;
+    font-size: 13px;
+}
+
+.canalesEnVivo{
+    width: 1066px;
+    height: 1900.730px;
+    margin: 30px 30px 30px 30px;
+}
+
+.cuadroRaro{
+    width: 1066px;
+    height: 1900.730px;
+    padding: 0px 0px 50px 0px;
+}
+
+.canalesInteresantes{
+    width: 1066px;
+    height: 314.313px;
+    float: left;
+}
+
+.titulo{
+    width: 1066px;
+    height: 21.594px;
+    font-size: 18px;
+    padding: 0px 0px 10px 0px;
+    color: #0e0e10;
+    float: left;
+}
+.titulo p{
+    float: left;
+}
+.titulo a{
+    outline: none;
+    text-decoration: none;
+    color: #772ce8;
+    float: left;
+}
+
+.titulo a:hover{
+    border-bottom: 1px solid;
+}
+
+.cuadroCanales1{
+    width: 1066px;
+    height: 282.72px;  
+    float: left;
+}
+
+.divcanalIn{
+    width: 1066px;
+    height: 242.72px; 
+}
+
+.canalIn{
+    width: 348.672px;
+    height: 242.719px;
+    padding: 0px 9px 0px 0px;
+    float: left;
+}
+
+.videoIn{
+    width: 348.672px;
+    height: 196.516px;
+    float: left;
+}
+
+.videoIn img{
+    width: 100%;
+    height: 100%;
+}
+
+.infoIn{
+    width: 348.672px;
+    height: 33.59px;
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    float: left;
+}
+
+.infoIn a{
+    outline: none;
+    color: #1f1f23;
+    text-decoration: none;
+}
+
+.infoIn a:hover{
+    color: #9461ff;
+}
+
+.cuadromostrarMasBig{
+    width: 1066px;
+    height: 40px; 
+    float: left;
+}
+
+.cuadromostrarMaspeque{
+    width: 1066px;
+    height: 30px;
+    margin: 0px 0px 20px 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+.cuadroBarra{
+    width: 461.05px;
+    height: 30px;
+    float: left;
+}
+
+.barra{
+    width: 461.05px;
+    height: 1px;
+    border: 1px;
+    background:#d7d7d8;
+    margin: 15px 0px 14px 0px; 
+}
+
+.separador{
+    width: 123.922px;
+    height: 30px;
+    padding: 0px 9px 0px 9px;
+    float: left;
+}
+
+.mostrarMas{
+    width: 123.922px;
+    height: 30px;
+    color: #5c16c5;
+    font-size: 13px;
+    border-radius: 5%;
+    border: none;
+    background: #f7f7f8;
+}
+
+.mostrarMas:hover{
+    background: #e5e5e5;
+}
+
+.inMostrarMas{
+    width: 103.922px;
+    height: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.inMostrarMas p{
+    width: 78.92px;
+    height: 19.5px;
+    margin: 0px 5px 0px 0px;
+    float: left;
+}
+
+.inMostrarMas b{  
+    padding: 2px 0px 0px 0px;
+    float: left;
+}
+
+.flechaMostrarMas{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-image: url("flechaMostrarMas.png");
+    background-size: cover;  
+}
+
+.cuadroBarra2{
+    width: 461.05px;
+    height: 30px;
+    float: right;
+}
+
+.categoriasInteresantes{
+    width: 1066px;
+    height: 362.86px;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+.divCategorias{
+    width: 1076px;
+    height: 301.27px;  
+    float: left;
+}
+
+
+.categoria{
+    width: 169.328px;
+    height: 301.266px;
+    padding: 0px 10px 0px 0px;
+    float: left;
+}
+
+.categoriaInfo{
+    width: 169.328px;
+    height: 271.266px;
+    float: left;
+}
+
+.categoriaInfo a{
+    width: 169.328px;
+    height: 225.766px;
+    float: left;
+}
+
+.categoriaInfo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.categoriaTexto{
+    width: 169.328px;
+    height: 45.500px;
+    float: left;
+}
+
+.divnombreCategoria{
+    width: 169.328px;
+    height: 26px;
+    float: left;
+}
+
+.nombreCategoria{
+    width: 169.328px;
+    height: 21px;
+    margin: 5px 0px 0px 0px;
+    float: left;
+}
+
+.nombreCategoria a{
+    width: 169.328px;
+    height: 21px;
+    outline: none;
+    color: #1f1f23;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nombreCategoria a:hover{
+    color: #9461ff;
+}
+
+.epectadoresCategoria a{
+    width: 169.328px;
+    height: 19.5px;
+    outline: none;
+    color: #53535f;
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+}
+
+.epectadoresCategoria a:hover{
+    color: #9461ff;
+}
+
+.agregados1{
+    width: 169.328px;
+    height: 25px;
+    margin: 5px 0px 0px 0px;
+    float: left;
+}
+
+.canalesVivo{
+    width: 1066px;
+    height: 347.016px;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+.cuadroCanales2{
+    width: 1066px;
+    height: 315.42px;
+    float: left;
+}
+
+.divcanalVivo{
+    width: 1066px;
+    height: 275.42px;
+    float: left;
+}
+
+.canalVivo{
+    width: 348.672px;
+    height: 275.422px;
+    padding: 0px 9px 0px 0px;
+    float: left;
+}
+
+.infoVivo{
+    width: 348.672px;
+    height: 69.297px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+}
+
+.logoVivo{
+    width: 40px;
+    height: 69.3px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+}
+
+.textoVivo{
+    width: 298.672px;
+    height: 69.297px;
+    float: left;
+}
+
+.contenidoVivo{
+    width: 298.672px;
+    height: 19.797px;
+    margin: 0px 0px 3px 0px;
+    float: left;
+}
+
+.contenidoVivo a{
+    outline: none;
+    color: #1f1f23;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contenidoVivo a:hover{
+    color: #9461ff;
+}
+
+.nombreVivo{
+    width: 298.672px;
+    height: 19.500px;
+    margin: 0px 0px 3px 0px;
+    float: left;
+}
+
+.nombreVivo a{
+    outline: none;
+    color: #53535f;
+    font-size: 13px;
+    text-decoration: none;
+    float: left;
+}
+
+.nombreVivo a:hover{
+    color: #9461ff;
+}
+.agregados2{
+    width: 298.672px;
+    height: 25px;
+    float: left;
+}

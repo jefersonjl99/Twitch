@@ -92,7 +92,7 @@
 .buscador input{
     position: absolute;
     width: 25%;
-    height: 70%;
+    height: 2rem;
     margin-left: 13%;
     background-color: rgb(235, 229, 229);
     border: none;
@@ -101,9 +101,9 @@
 
 .btn-Buscar{
     position: absolute;
-    height: 35px;
-    width: 40px;
-    top: 3px;
+    height: 2rem;
+    width: 2rem;
+    top: 0.5rem;
     right: 36.2%;
     line-height: 40px;
     background-color:rgb(250, 245, 245); 
@@ -124,7 +124,7 @@
 
 .menuIzquierda > li{
     float: right;
-    padding-top: 1%;
+    padding-top: 0.5%;
     padding-right: 0.5%;
 }
 

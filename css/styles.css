@@ -1,3 +1,22 @@
+nav {
+  height: 2rem;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+  padding: 0.5rem;
+  position: fixed;
+  z-index: 100;
+}
+.barraNavegacion {
+  display: block;
+}
+.botonesExplorar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+
 @font-face {
     font-family: Inter;
     src: url(Inter-VariableFont_slnt\,wght.ttf);
@@ -14,33 +33,25 @@
     padding: 0%;
 }
 
-.iFrame_cabecera{
-  width: 100%; 
-  height: 8%;   
-  padding-top: 5px;
-  box-shadow: 1px 1px 2px #d7d7d8;  
-  position: fixed;
-  background: white;
-}
 
 .cajaIzquierda{
     font-family:  Inter;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     width: 240px;
     height: 100%;
     background:#efeff1;
-    margin: 50px 0px 0px 0px;
+    margin: 3rem 0px 0px 0px;
 }
 
 .cajatitulo{
     
     color: #0e0e10;
-    width: 220px;
-    height: 19px;
-    margin: 10px;
-    padding: 5px 0px 0px 0px;
+    width: 200px;
+    height: 30px;
+    margin: 0px 10px  0px;
+    padding: 15px 0px 0px 0px;
 }
 
 
@@ -535,27 +546,27 @@
 
 .divCategorias{
     width: 1076px;
-    height: 301.27px;  
+    height: 321.27px;  
     float: left;
 }
 
 
 .categoria{
-    width: 169.328px;
-    height: 301.266px;
+    width: 198px;
+    height: 345px;
     padding: 0px 10px 0px 0px;
     float: left;
 }
 
 .categoriaInfo{
-    width: 169.328px;
-    height: 271.266px;
+    width: 188px;
+    height: 290px;
     float: left;
 }
 
 .categoriaInfo a{
-    width: 169.328px;
-    height: 225.766px;
+    width: 198px;
+    height: 250px;
     float: left;
 }
 
