@@ -1,152 +1,357 @@
 nav {
-  height: 2rem;
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
-  padding: 0.5rem;
-  position: fixed;
-  z-index: 100;
+    height: 2rem;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 100;
 }
+
 .barraNavegacion {
-  display: block;
+    display: block;
 }
+
+
+.tituloEx {
+    margin-top: 3rem;
+    width: 98.333px;
+    height: 64.667px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-size-adjust: 100%;
+}
+
+.tituloExplorar {
+    /* font: inherit; */
+    display: block;
+    font-family: "Roobert", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-size-adjust: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.barraBotones {
+    width: 980.33px;
+    height: 78px;
+    float: left;
+}
+
 .botonesExplorar {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: 237.083px 237.083px 237.083px 237.083px;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.botonesExplorar a {
+    text-decoration: none;
+
+    border-radius: 5px;
+    background-color: #772ce8;
+}
+
+.botonesExplorar a:hover {
+    background-color: #5c16c5;
+    cursor: pointer;
+}
+
+.botonExplorar {
+    height: 60px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#boton1 {
+    background-image: url(https://static.twitchcdn.net/assets/gaming-background-2db19fcb7174d9a8193c.png);
+}
+
+#boton2 {
+    background-image: url(https://static.twitchcdn.net/assets/irl-background-efe1a64c7f6515f018e5.png);
+}
+
+#boton3 {
+    background-image: url(https://static.twitchcdn.net/assets/music-background-55f9fb078f52ffdcaa17.png);
+}
+
+#boton4 {
+    background-image: url(https://static.twitchcdn.net/assets/esports-background-3432dbd72d9a8a3d7c3b.png);
+}
+
+.contenidoBoton {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.txtBoton {
+    font: inherit;
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 28px;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.imagenBoton {
+    margin-top: -18px;
+    margin-left: 2.5rem;
+}
+
+.menusExplorar {
+    margin-top: 3rem;
+    height: 100px;
+    width: 980.333px;
+    float: left;
+}
+
+.menusEspecificos {
+    height: 40px;
+    width: 980.333px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.menusEspecificos a {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #772ce8;
+}
+
+.menusEspecificos a:hover {
+    background-color: #5c16c5;
+    cursor: pointer;
+}
+
+.listaMenus {
+    -webkit-box-flex: 1;
+    flex-grow: 1 !important;
+    display: flex !important;
+    height: 100% !important;
+    font-size: var(--font-size-4) !important;
+    flex-wrap: wrap !important;
+}
+
+.listaMenus li {
+    margin-right: 1rem;
+    height: 100% !important;
+    font: inherit;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: auto;
+}
+
+
+.barraMenuSelec {
+    height: 0.15rem;
+    margin-top: 0.4rem;
+    margin-bottom: -0.1rem;
+    transition: transform 0.2s ease 0s;
+    transform-origin: 0px 0px;
+    background-color: #772ce8;
+}
+
+.barraBuscar {
+
+    -webkit-box-flex: 1;
+    flex-grow: 1 !important;
+    width: 980.333px;
+    height: 40px;
+    display: flex;
+}
+
+.ladoizq {
+    width: 308.896px;
+    height: 40px;
+    -webkit-box-flex: 1;
+    flex-grow: 1 !important;
+    display: flex !important;
+    height: 100%;
+}
+
+.ladoizq label {
+    color: #18181b;
+    font-weight: 700;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+.barraBuscador {
+    display: flex;
+    width: 226.667px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #DEDEDF;
+    align-items: center;
+    font-size: 13px;
+}
+
+.imagenBuscador {
+    size: 100%;
+}
+
+.barraBuscador input {
+    display: flex;
+    width: 226.667px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #DEDEDF;
+    color: #6D6D6E;
+    align-items: center;
+    font-size: 13px;
+    border: none;
+}
+
+.ladoder {
+    
+    margin-left: 190px;
+    width: 308.896px;
+    height: 40px;
+    -webkit-box-flex: 1;
+    flex-grow: 1 !important;
+    display: flex !important;
+    height: 100%;
+}
+
+.ladoder label {
+    color: #18181b;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 10px;
 }
 
 
 @font-face {
     font-family: Inter;
-    src: url(Inter-VariableFont_slnt\,wght.ttf);
-    position: relative
+    src: url(Inter-VariableFont_slnt\wght.ttf);
+    position: relative;
 }
 
-.superDiv{
-    height: 100%; 
+.superDiv {
+    height: 100%;
 }
 
-*{
+* {
     list-style: none;
     margin: 0%;
     padding: 0%;
 }
 
-
-.cajaIzquierda{
-    font-family:  Inter;
+.cajaIzquierda {
+    font-family: Inter;
     position: absolute;
     z-index: 3;
     position: fixed;
     width: 240px;
     height: 100%;
-    background:#efeff1;
+    background: #efeff1;
     margin: 3rem 0px 0px 0px;
 }
 
-.cajatitulo{
-    
+.cajatitulo {
     color: #0e0e10;
     width: 200px;
     height: 30px;
-    margin: 0px 10px  0px;
+    margin: 0px 10px 0px;
     padding: 15px 0px 0px 0px;
 }
 
-
-.canales{
+.canales {
     width: 240px;
     height: 420px;
-    
 }
 
-.canal{
+.canal {
     width: 220px;
     height: 32px;
-    padding: 5px 10px 5px 10px ;
+    padding: 5px 10px 5px 10px;
 }
 
-.aCanales{
-    color:  #1f1f23;
+.aCanales {
+    color: #1f1f23;
 }
-.aCanales :hover{
+
+.aCanales :hover {
     background: #e5e5e5;
-
 }
 
-.logo{
+.logo {
     width: 30px;
     height: 30px;
     float: left;
 }
 
-.logo img{
+.logo img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.informacion{
+.informacion {
     width: 190px;
     height: 31px;
     float: left;
 }
 
-.datos{
+.datos {
     width: 122.81px;
     height: 31px;
     margin: 0px 0px 0px 10px;
     float: left;
 }
 
-
-.nombre{
+.nombre {
     font-size: 14px;
     width: 122.81px;
     height: 16px;
     color: #1f1f23;
 }
 
-.contenido{
+.contenido {
     font-size: 13px;
     width: 117.81px;
     height: 15px;
     color: #53535f;
 }
 
-.vistas{
+.vistas {
     width: 49.94px;
     height: 31px;
     margin: 0px 0px 0px 5px;
     float: right;
 }
 
-.infoVistas{
+.infoVistas {
     width: 49.94px;
     height: 19px;
 }
 
-.icon-red-dot{
+.icon-red-dot {
     width: 8px;
     height: 8px;
     background-image: url("red\ dot.png");
     background-size: cover;
-    float:left;
+    float: left;
     margin: 5px 0px 0px 0px;
 }
 
-.Npersonas{
+.Npersonas {
     font-size: 13px;
     width: 36.42px;
     height: 19px;
     margin: 0px 0px 0px 5px;
-    float:left;
-
+    float: left;
 }
 
-
-.contenidoTwitch{
+.contenidoTwitch {
     position: absolute;
     z-index: 1;
     position: fixed;
@@ -158,88 +363,84 @@ nav {
     margin: 50px 0px 0px 240px;
 }
 
-#scrollbar::-webkit-scrollbar
-{
-	width: 6px;
-    
+#scrollbar::-webkit-scrollbar {
+    width: 6px;
 }
 
-#scrollbar::-webkit-scrollbar-thumb
-{
+#scrollbar::-webkit-scrollbar-thumb {
     height: 30px;
     border-radius: 15px;
-	background-color: #3b3b44;
+    background-color: #3b3b44;
 }
 
-.divCarrusel{
+.divCarrusel {
     width: 1126px;
     height: 350px;
-    
 }
 
-.carrusel{
+.carrusel {
     width: 1066px;
     height: 300px;
-    padding: 20px 30px 30px 30px ;
+    padding: 20px 30px 30px 30px;
 }
 
-.botonCarrusel{
+.botonCarrusel {
     width: 36px;
     height: 36px;
     border-radius: 15%;
     border: none;
     margin: 132px 0px 132px 0px;
     background: #f7f7f8;
-    float:left;
+    float: left;
 }
 
-.flechaCarrusel{
+.flechaCarrusel {
     width: 24px;
     height: 24px;
     background-image: url("flechaCarrusel2.png");
     background-size: cover;
-    margin: 6px 6px 6px 6px;    
+    margin: 6px 6px 6px 6px;
 }
 
-.botonCarrusel:hover{
+.botonCarrusel:hover {
     background: #e5e5e5;
 }
 
-.botonCarrusel2{
+.botonCarrusel2 {
     width: 36px;
     height: 36px;
     border-radius: 15%;
     border: none;
     margin: 132px 0px 132px 0px;
     background: #f7f7f8;
-    float:right;
+    float: right;
 }
 
-.flechaCarrusel2{
+.flechaCarrusel2 {
     width: 24px;
     height: 24px;
     background-image: url("flechaCarrusel.png");
     background-size: cover;
-    margin: 6px 6px 6px 6px;    
+    margin: 6px 6px 6px 6px;
 }
 
-.botonCarrusel2:hover{
+.botonCarrusel2:hover {
     background: #e5e5e5;
 }
 
-.directoRecomendado{
+.directoRecomendado {
     width: 750px;
     height: 300px;
-    float:left;
-    margin: 0px 122px 0px 122px;  
-    position: relative;  
+    float: left;
+    margin: 0px 122px 0px 122px;
+    position: relative;
 }
 
-.directoRecomendado::after{
-    position: absolute;  
+.directoRecomendado::after {
+    position: absolute;
     top: 0px;
     left: 0px;
-    content: ' ';
+    content: " ";
     background: radial-gradient(white, rgb(54, 52, 52));
     width: 100%;
     height: 100%;
@@ -247,53 +448,52 @@ nav {
     z-index: -1;
 }
 
-.directo{
+.directo {
     width: 530px;
     height: 300px;
-    float:left;
+    float: left;
     background: black;
-
 }
 
-.infoCanal{
-    font-family:  Inter;
+.infoCanal {
+    font-family: Inter;
     width: 220px;
     height: 300px;
-    float:right;
+    float: right;
     background: #ffffff;
 }
 
-.infoC{
+.infoC {
     width: 200px;
     height: 280px;
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
 }
 
-.logoyJuego{
+.logoyJuego {
     width: 200px;
-    height: 58.500px;
-    margin: 0px 0px 10px 0px; 
+    height: 58.5px;
+    margin: 0px 0px 10px 0px;
 }
 
-.datosContenido{
+.datosContenido {
     width: 200px;
     height: 25px;
     margin: 0px 0px 5px 0px;
 }
 
-.textoCanal{
+.textoCanal {
     width: 200px;
     height: 150px;
 }
 
-.infoCanal2{
+.infoCanal2 {
     width: 140px;
-    height: 58.500px;
+    height: 58.5px;
     margin: 0px 0px 0px 10px;
     float: right;
 }
 
-.hipervinculoCanal{
+.hipervinculoCanal {
     width: 140px;
     height: 19.5px;
     font-size: 13px;
@@ -303,27 +503,26 @@ nav {
     float: left;
 }
 
-.hipervinculoCanal :hover{
-    
-    color:#9461ff;
+.hipervinculoCanal :hover {
+    color: #9461ff;
     border-bottom: 1px solid;
 }
 
-.hipervinculoJuego{
+.hipervinculoJuego {
     width: 140px;
     height: 19.5px;
     font-size: 13px;
     outline: none;
     text-decoration: none;
-    color:#9147ff;
+    color: #9147ff;
     float: left;
 }
 
-.hipervinculoJuego :hover{
+.hipervinculoJuego :hover {
     border-bottom: 1px solid;
 }
 
-.pVistas{
+.pVistas {
     width: 140px;
     height: 19.5px;
     font-size: 13px;
@@ -331,20 +530,20 @@ nav {
     float: left;
 }
 
-.datosC{
+.datosC {
     width: 66.02px;
     height: 25px;
     float: left;
 }
 
-.datosTexto{
+.datosTexto {
     width: 66.02px;
     height: 20px;
     margin: 0px 0px 5px 0px;
     float: left;
 }
 
-.datosa{
+.datosa {
     background: #eaeaeb;
     border-radius: 20px;
     outline: none;
@@ -352,11 +551,11 @@ nav {
     float: left;
 }
 
-.datosa :hover{
+.datosa :hover {
     background: #e5e5e5;
 }
 
-.textoDatosa{
+.textoDatosa {
     color: #53535f;
     border: 2px solid #efeff1;
     font-size: 12px;
@@ -365,30 +564,26 @@ nav {
     float: left;
 }
 
-.textoCanal{
+.textoCanal {
     color: #0e0e10;
     font-size: 13px;
 }
 
-.canalesEnVivo{
+.canalesEnVivo {
     width: 1066px;
-    height: 1900.730px;
+    height: 1900.73px;
     margin: 30px 30px 30px 30px;
 }
 
-.cuadroRaro{
+.cuadroRaro {
     width: 1066px;
-    height: 1900.730px;
+    height: 1900.73px;
     padding: 0px 0px 50px 0px;
 }
 
-.canalesInteresantes{
-    width: 1066px;
-    height: 314.313px;
-    float: left;
-}
 
-.titulo{
+
+.titulo {
     width: 1066px;
     height: 21.594px;
     font-size: 18px;
@@ -396,50 +591,52 @@ nav {
     color: #0e0e10;
     float: left;
 }
-.titulo p{
+
+.titulo p {
     float: left;
 }
-.titulo a{
+
+.titulo a {
     outline: none;
     text-decoration: none;
     color: #772ce8;
     float: left;
 }
 
-.titulo a:hover{
+.titulo a:hover {
     border-bottom: 1px solid;
 }
 
-.cuadroCanales1{
+.cuadroCanales1 {
     width: 1066px;
-    height: 282.72px;  
+    height: 282.72px;
     float: left;
 }
 
-.divcanalIn{
+.divcanalIn {
     width: 1066px;
-    height: 242.72px; 
+    height: 242.72px;
 }
 
-.canalIn{
+.canalIn {
     width: 348.672px;
     height: 242.719px;
     padding: 0px 9px 0px 0px;
     float: left;
 }
 
-.videoIn{
+.videoIn {
     width: 348.672px;
     height: 196.516px;
     float: left;
 }
 
-.videoIn img{
+.videoIn img {
     width: 100%;
     height: 100%;
 }
 
-.infoIn{
+.infoIn {
     width: 348.672px;
     height: 33.59px;
     margin: 10px 0px 0px 0px;
@@ -447,51 +644,51 @@ nav {
     float: left;
 }
 
-.infoIn a{
+.infoIn a {
     outline: none;
     color: #1f1f23;
     text-decoration: none;
 }
 
-.infoIn a:hover{
+.infoIn a:hover {
     color: #9461ff;
 }
 
-.cuadromostrarMasBig{
+.cuadromostrarMasBig {
     width: 1066px;
-    height: 40px; 
+    height: 40px;
     float: left;
 }
 
-.cuadromostrarMaspeque{
+.cuadromostrarMaspeque {
     width: 1066px;
     height: 30px;
     margin: 0px 0px 20px 0px;
     padding: 15px 0px 0px 0px;
 }
 
-.cuadroBarra{
+.cuadroBarra {
     width: 461.05px;
     height: 30px;
     float: left;
 }
 
-.barra{
+.barra {
     width: 461.05px;
     height: 1px;
     border: 1px;
-    background:#d7d7d8;
-    margin: 15px 0px 14px 0px; 
+    background: #d7d7d8;
+    margin: 15px 0px 14px 0px;
 }
 
-.separador{
+.separador {
     width: 123.922px;
     height: 30px;
     padding: 0px 9px 0px 9px;
     float: left;
 }
 
-.mostrarMas{
+.mostrarMas {
     width: 123.922px;
     height: 30px;
     color: #5c16c5;
@@ -501,100 +698,100 @@ nav {
     background: #f7f7f8;
 }
 
-.mostrarMas:hover{
+.mostrarMas:hover {
     background: #e5e5e5;
 }
 
-.inMostrarMas{
+.inMostrarMas {
     width: 103.922px;
     height: 20px;
     padding: 0px 10px 0px 10px;
 }
 
-.inMostrarMas p{
+.inMostrarMas p {
     width: 78.92px;
     height: 19.5px;
     margin: 0px 5px 0px 0px;
     float: left;
 }
 
-.inMostrarMas b{  
+.inMostrarMas b {
     padding: 2px 0px 0px 0px;
     float: left;
 }
 
-.flechaMostrarMas{
+.flechaMostrarMas {
     width: 20px;
     height: 20px;
     float: left;
     background-image: url("flechaMostrarMas.png");
-    background-size: cover;  
+    background-size: cover;
 }
 
-.cuadroBarra2{
+.cuadroBarra2 {
     width: 461.05px;
     height: 30px;
     float: right;
 }
 
-.categoriasInteresantes{
+.categorias {
     width: 1066px;
     height: 362.86px;
-    margin: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px;
     float: left;
 }
 
-.divCategorias{
+.divCategorias {
     width: 1076px;
-    height: 321.27px;  
+    height: 341.27px;
     float: left;
 }
 
-
-.categoria{
+.categoria {
     width: 198px;
     height: 345px;
     padding: 0px 10px 0px 0px;
     float: left;
 }
 
-.categoriaInfo{
+.categoriaInfo {
     width: 188px;
     height: 290px;
     float: left;
 }
 
-.categoriaInfo a{
+.categoriaInfo a {
     width: 198px;
     height: 250px;
     float: left;
 }
 
-.categoriaInfo a img{
+.categoriaInfo a img {
     width: 100%;
     height: 100%;
 }
 
-.categoriaTexto{
+.categoriaTexto {
     width: 169.328px;
-    height: 45.500px;
+    height: 45.5px;
     float: left;
 }
 
-.divnombreCategoria{
+.divnombreCategoria {
     width: 169.328px;
     height: 26px;
     float: left;
 }
 
-.nombreCategoria{
+.nombreCategoria {
     width: 169.328px;
     height: 21px;
     margin: 5px 0px 0px 0px;
     float: left;
 }
 
-.nombreCategoria a{
+.nombreCategoria a {
     width: 169.328px;
     height: 21px;
     outline: none;
@@ -603,11 +800,11 @@ nav {
     text-decoration: none;
 }
 
-.nombreCategoria a:hover{
+.nombreCategoria a:hover {
     color: #9461ff;
 }
 
-.epectadoresCategoria a{
+.epectadoresCategoria a {
     width: 169.328px;
     height: 19.5px;
     outline: none;
@@ -617,89 +814,89 @@ nav {
     float: left;
 }
 
-.epectadoresCategoria a:hover{
+.epectadoresCategoria a:hover {
     color: #9461ff;
 }
 
-.agregados1{
+.agregados1 {
     width: 169.328px;
     height: 25px;
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     float: left;
 }
 
-.canalesVivo{
+.canalesVivo {
     width: 1066px;
     height: 347.016px;
     margin: 20px 0px 0px 0px;
     float: left;
 }
 
-.cuadroCanales2{
+.cuadroCanales2 {
     width: 1066px;
     height: 315.42px;
     float: left;
 }
 
-.divcanalVivo{
+.divcanalVivo {
     width: 1066px;
     height: 275.42px;
     float: left;
 }
 
-.canalVivo{
+.canalVivo {
     width: 348.672px;
     height: 275.422px;
     padding: 0px 9px 0px 0px;
     float: left;
 }
 
-.infoVivo{
+.infoVivo {
     width: 348.672px;
     height: 69.297px;
     margin: 10px 0px 0px 0px;
     float: left;
 }
 
-.logoVivo{
+.logoVivo {
     width: 40px;
     height: 69.3px;
     margin: 0px 10px 0px 0px;
     float: left;
 }
 
-.textoVivo{
+.textoVivo {
     width: 298.672px;
     height: 69.297px;
     float: left;
 }
 
-.contenidoVivo{
+.contenidoVivo {
     width: 298.672px;
     height: 19.797px;
     margin: 0px 0px 3px 0px;
     float: left;
 }
 
-.contenidoVivo a{
+.contenidoVivo a {
     outline: none;
     color: #1f1f23;
     font-size: 14px;
     text-decoration: none;
 }
 
-.contenidoVivo a:hover{
+.contenidoVivo a:hover {
     color: #9461ff;
 }
 
-.nombreVivo{
+.nombreVivo {
     width: 298.672px;
-    height: 19.500px;
+    height: 19.5px;
     margin: 0px 0px 3px 0px;
     float: left;
 }
 
-.nombreVivo a{
+.nombreVivo a {
     outline: none;
     color: #53535f;
     font-size: 13px;
@@ -707,10 +904,11 @@ nav {
     float: left;
 }
 
-.nombreVivo a:hover{
+.nombreVivo a:hover {
     color: #9461ff;
 }
-.agregados2{
+
+.agregados2 {
     width: 298.672px;
     height: 25px;
     float: left;
